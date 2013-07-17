@@ -15,6 +15,7 @@ It doesn't lock any database transactions (check out https://github.com/streeter
 
 * http://pypi.python.org/pypi/django-readonly/
 * https://bitbucket.org/zalew/django-readonly/
+* https://github.com/zalew/django-readonly/ (mirror)
  
 Usage
 ------
