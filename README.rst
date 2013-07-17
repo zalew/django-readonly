@@ -1,5 +1,13 @@
 Django-Readonly 
-=============
+================
+
+.. image:: https://pypip.in/v/django-readonly/badge.png
+    :target: https://crate.io/packages/django-readonly/
+    :alt: Latest PyPI version
+
+.. image:: https://pypip.in/d/django-readonly/badge.png
+    :target: https://crate.io/packages/django-readonly/
+    :alt: Number of PyPI downloads
 
 Put your website into read-only mode for maintanance. It blocks any POST requests and signs users out. 
 It doesn't lock any database transactions (check out https://github.com/streeter/django-db-readonly for that).
@@ -9,7 +17,7 @@ It doesn't lock any database transactions (check out https://github.com/streeter
 * https://bitbucket.org/zalew/django-readonly/
  
 Usage
------
+------
  
 * ``pip install django-readonly``
 * settings.py: add ``'readonly.middleware.ReadOnlyMiddleware',`` to ``MIDDLEWARE_CLASSES``
