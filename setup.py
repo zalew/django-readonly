@@ -13,7 +13,7 @@ setup(
     author='Jakub Zalewski',
     author_email='zalew7@gmail.com',
     url='https://bitbucket.org/zalew/django-readonly',
-    license='public domain',
+    license='BSD License',
     packages=find_packages(),
     zip_safe=False,
     package_data={
@@ -23,9 +23,10 @@ setup(
         'Development Status :: %s' % DEV_STATUS,
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'License :: Public Domain',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+	'Programming Language :: Python :: 2',
         'Framework :: Django',
     ],
       install_requires=[
